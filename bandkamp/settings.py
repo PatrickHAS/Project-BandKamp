@@ -32,7 +32,7 @@ SECRET_KEY = os.getenv("SECRET_KEY", get_random_secret_key())
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", False)
 
-ALLOWED_HOSTS = ["Project Bandkamp", "localhost"]
+ALLOWED_HOSTS = ["web-production-7f4d.up.railway.app", "localhost"]
 
 
 # Application definition
